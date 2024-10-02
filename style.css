@@ -10,11 +10,11 @@ border-radius: 50px;
 margin-top: 20px;
 margin-left: 20px;
 margin-right: 20px;
-
+justify-content: space-around;
 
 }
 #besouro{
-width: 50px;
+size: 50px;
 
 
 
