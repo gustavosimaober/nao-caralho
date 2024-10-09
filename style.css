@@ -10,16 +10,14 @@ border-radius: 50px;
 margin-top: 20px;
 margin-left: 20px;
 margin-right: 20px;
-justify-content: space-around;
 height: 130px;  
+display: flex;
 }
 
 body{
-background-color: blueviolet;
-
+background-color: white;
 
 }
 .bs {
-
 width: 56%;
 }
