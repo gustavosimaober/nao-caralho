@@ -11,7 +11,7 @@ margin-top: 20px;
 margin-left: 20px;
 margin-right: 20px;
 justify-content: space-around;
-background: color height 130px; ;   
+height: 130px;  
 }
 
 body{
@@ -20,6 +20,6 @@ background-color: blueviolet;
 
 }
 .bs {
-size: 12px;
-width: 1%;
+
+width: 56%;
 }
