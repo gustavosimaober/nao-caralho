@@ -1,27 +1,73 @@
 <!DOCTYPE html>
-<html lang="PT-BR">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="ademar.css">
-    <title>SITE ADEMAR</title>
+    <title>Faculdade Formiga</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <header>
+        <div class="navbar">
+            <div class="logo">
+                <img src="besouro-hercules.png" alt="Logo Faculdade Besouro">
+                <span>FACULDADE FORMIGA</span>
+            </div>
+            <nav>
+                <ul>
+                    <li>Cursos <span>&#9662;</span></li>
+                    <li>Sobre nós <span>&#9662;</span></li>
+                    <li>Acesso</li>
+                </ul>
+            </nav>
+            <div class="search-bar">
+                <input type="text" placeholder="Buscar...">
+                <button>&#128269;</button>
+            </div>
+        </div>
+    </header>
 
-  <header>  <h1 class="txt1">FACULDADE FORMIGA </h1> 
-   <div class="menu">
-    <h1>Curso</h1>
-    <h1>Sobre nós</h1>
-   </div>
-   <section class="ps">
-    <h1>Acesso</h1>
-   <input class="brps" type="" placeholder="PESQUISAR">
-   </section>
-</header>
-<div class="ct">
-<h1>Categorias</h1>
-</div>
-<div class="card"></div>
-<div class="ln"></div>
+    <section class="categories">
+        <h2>Categorias</h2>
+        <div class="buttons">
+            <button class="active">Tecnologia</button>
+            <button>Educação</button>
+            <button>Saúde</button>
+            <button>Finanças</button>
+            <button>Case Studies</button>
+        </div>
+    </section>
+
+    <section class="courses">
+        <div class="course-card">
+            <img src="img1.jpg" alt="Segurança de Dados">
+            <h3>Segurança de Dados</h3>
+            <button class="register-btn">INSCREVA-SE</button>
+            <div class="course-info">
+                <p>R$ 100,00</p>
+                <p>EAD</p>
+            </div>
+        </div>
+
+        <div class="course-card">
+            <img src="img2.jpg" alt="Engenharia de Software">
+            <h3>Engenharia de Software</h3>
+            <button class="register-btn">INSCREVA-SE</button>
+            <div class="course-info">
+                <p>R$ 1.200,00</p>
+                <p>Presencial</p>
+            </div>
+        </div>
+
+        <div class="course-card">
+            <img src="img3.jpg" alt="Análise e Desenvolvimento de Sistemas">
+            <h3>Análise e Desenvolvimento de Sistemas</h3>
+            <button class="register-btn">INSCREVA-SE</button>
+            <div class="course-info">
+                <p>R$ 200,00</p>
+                <p>Semipresencial</p>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
