@@ -11,16 +11,17 @@ body {
 
 .navbar {
     background-color: #2a2d58;
-    padding: 15px;
-    display: flex;
+    
     justify-content: space-between;
     align-items: center;
+    
     height: 130px;
     
     border-radius: 50px;
     margin-top: 20px;
     width: 95%;
     margin-left: 45px;
+    display: flex;
    
    
 }
