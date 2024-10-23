@@ -140,10 +140,10 @@ body {
     color: #666;
 }
 hr{
-margin-left: 50px;
-color: #2a2d58;
-
-
+margin-left: 20px;
+color: rgb(0, 8, 122);
+height: 20px;
+width: 20px;
 }
 .t1{
 padding-left: 50px;
