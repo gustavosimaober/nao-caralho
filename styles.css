@@ -65,7 +65,7 @@ body {
 }
 
 .categories {
-    padding: 20px;
+    padding: 50px;
     text-align: center;
     background-color: #d6dadb;
 }
@@ -140,8 +140,12 @@ body {
     color: #666;
 }
 hr{
-padding-left: 50px;
-background-color: #2a2d58;
+padding: 50px;
+color: #2a2d58;
 
+
+}
+.t1{
+padding: 50px;
 
 }
